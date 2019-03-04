@@ -1,0 +1,39 @@
+footer{
+  background-color: #111111;
+  color: white;
+}
+
+.copyright{
+  text-align: center;
+}
+.company-container a{
+  color: white;
+  text-decoration: none;
+}
+.company-container a:hover {
+	color: #0074D9;
+}
+
+.footer-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-icons{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.social-icons li{
+  list-style: none;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.social-icons li a{
+  color: white;
+  text-decoration: none;
+}
+.social-icons li a:hover {
+	color: #0074D9;
+}
