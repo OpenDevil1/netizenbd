@@ -12,7 +12,7 @@ class Contact extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={{ span: 6, offset: 3 }}>
+                    <Col md={{ span: 6, offset: 3 }} xs={12}>
                     <Form>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Control type="text" placeholder="Your Name" />
