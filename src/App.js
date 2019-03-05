@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Jumbotron, Container, Row, Col, Button, Card} from "react-bootstrap";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter , Route, Link } from "react-router-dom";
 import NavBar from './components/NavigationBar.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Router>
+       <HashRouter>
         <div>
           <NavBar/>
           <Route exact path="/" component={Home} />
@@ -21,7 +21,7 @@ class App extends Component {
           <Route path="/Contact" component={Contact} />
           <Footer/>
         </div>
-      </Router>
+      </HashRouter>
       </div>
     );
   }

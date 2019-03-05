@@ -11,10 +11,10 @@ class App extends Component {
         <Navbar.Brand href="/"><img src={Logo} alt="Netizen Logo"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/services">Our Services</Nav.Link>
-            <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav.Link href="#/">Home</Nav.Link>
+            <Nav.Link href="#/about">About Us</Nav.Link>
+            <Nav.Link href="#/services">Our Services</Nav.Link>
+            <Nav.Link href="#/contact">Contact Us</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
       );
